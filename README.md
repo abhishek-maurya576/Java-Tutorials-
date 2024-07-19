@@ -1,160 +1,135 @@
+---
 
+# 10-Day Java Course
 
-```markdown
-# Day 2: Basic Syntax and Data Types
+Welcome to the 10-Day Java Course! This course is designed to provide you with a solid foundation in Java programming, from basic syntax to advanced concepts like multithreading and concurrency. Each day includes topics, examples, and practical tasks to reinforce your learning.
 
-## Topics
+## Course Outline
 
-### Variables and Data Types
-- **Primitive Data Types:**
-  - **byte:** 8-bit signed integer.
-  - **short:** 16-bit signed integer.
-  - **int:** 32-bit signed integer.
-  - **long:** 64-bit signed integer.
-  - **float:** Single-precision 32-bit floating point.
-  - **double:** Double-precision 64-bit floating point.
-  - **char:** Single 16-bit Unicode character.
-  - **boolean:** Represents true or false values.
-- **Declaring Variables:**
-  ```java
-  int myNumber;
-  ```
-- **Initializing Variables:**
-  ```java
-  int myNumber = 25;
-  ```
+### Day 1: Introduction to Java
+- **Topics**
+  - Overview of Java
+  - Setting up the environment
+  - Writing your first Java program
+  - Java syntax and structure
+- **Tasks**
+  - Install JDK and set up the IDE
+  - Write a simple "Hello, World!" program
+  - Experiment with basic Java syntax
 
-### Operators
-- **Arithmetic Operators:**
-  - `+` (Addition)
-  - `-` (Subtraction)
-  - `*` (Multiplication)
-  - `/` (Division)
-  - `%` (Modulus)
-- **Relational Operators:**
-  - `==` (Equal to)
-  - `!=` (Not equal to)
-  - `>` (Greater than)
-  - `<` (Less than)
-  - `>=` (Greater than or equal to)
-  - `<=` (Less than or equal to)
-- **Logical Operators:**
-  - `&&` (Logical AND)
-  - `||` (Logical OR)
-  - `!` (Logical NOT)
-- **Assignment Operators:**
-  - `=` (Assignment)
-  - `+=` (Add and assign)
-  - `-=` (Subtract and assign)
-  - `*=` (Multiply and assign)
-  - `/=` (Divide and assign)
-  - `%=` (Modulus and assign)
+### Day 2: Data Types and Operators
+- **Topics**
+  - Primitive data types
+  - Type casting
+  - Operators in Java
+- **Tasks**
+  - Practice using different data types
+  - Write programs using various operators
 
-### Basic Input and Output
-- **Using `System.out.println()` for Output:**
-  ```java
-  System.out.println("Hello, World!");
-  ```
-- **Using `Scanner` for Input:**
-  ```java
-  import java.util.Scanner;
+### Day 3: Control Flow Statements
+- **Topics**
+  - If-else statements
+  - Switch statements
+  - Loops: for, while, do-while
+- **Tasks**
+  - Write programs using if-else and switch statements
+  - Implement loops in your programs
 
-  public class Main {
-      public static void main(String[] args) {
-          Scanner scanner = new Scanner(System.in);
-          System.out.println("Enter your name: ");
-          String name = scanner.nextLine();
-          System.out.println("Hello, " + name);
-      }
-  }
-  ```
+### Day 4: Arrays and Strings
+- **Topics**
+  - Arrays
+  - Multidimensional arrays
+  - String class and methods
+- **Tasks**
+  - Practice creating and manipulating arrays
+  - Work with string methods
 
-## Tasks
+### Day 5: Object-Oriented Programming
+- **Topics**
+  - Classes and objects
+  - Constructors
+  - Inheritance
+  - Polymorphism
+- **Tasks**
+  - Create classes and objects
+  - Implement inheritance and polymorphism in your programs
 
-1. **Write a Program to Use Different Data Types:**
-   - Declare variables of each primitive data type.
-   - Initialize these variables with appropriate values.
-   - Print the values of these variables.
+### Day 6: Exception Handling
+- **Topics**
+  - Types of exceptions
+  - Try-catch blocks
+  - Custom exceptions
+- **Tasks**
+  - Write programs that handle exceptions
+  - Create custom exceptions
 
-2. **Perform Arithmetic Operations:**
-   - Write a program to perform arithmetic operations (addition, subtraction, multiplication, division) on two variables.
-   - Print the results of these operations.
+### Day 7: Collections Framework
+- **Topics**
+  - List, Set, Map interfaces
+  - ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap
+- **Tasks**
+  - Work with different collection types
+  - Write programs to demonstrate the use of collections
 
-3. **Read Input from the User:**
-   - Write a program that asks the user to enter their name and age.
-   - Read the input using `Scanner`.
-   - Print a greeting message along with the entered name and age.
+### Day 8: File I/O
+- **Topics**
+  - File handling
+  - Reading from and writing to files
+  - BufferedReader and BufferedWriter
+- **Tasks**
+  - Write programs to read from and write to files
+  - Use BufferedReader and BufferedWriter for file operations
+
+### Day 9: Advanced Java Concepts
+- **Topics**
+  - Lambda expressions
+  - Functional interfaces
+  - Stream API
+- **Tasks**
+  - Implement lambda expressions and functional interfaces
+  - Use Stream API for data manipulation
+
+### Day 10: Multithreading and Concurrency
+- **Topics**
+  - Thread class and Runnable interface
+  - Synchronization
+  - Concurrency utilities (Executors, Callable, Future)
+- **Tasks**
+  - Create and manage threads
+  - Synchronize threads and avoid deadlocks
+  - Use concurrency utilities
+
+## Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/10-day-java-course.git
+   cd 10-day-java-course
+   ```
+
+2. **Follow the Day-wise Instructions:**
+   Each day's topics, examples, and tasks are available in the respective directories (e.g., `day1`, `day2`, etc.). Open the README file in each directory to get detailed instructions.
+
+3. **Compile and Run Java Programs:**
+   Use the command line or your favorite IDE to compile and run the Java programs provided in each day's folder.
+
+## Prerequisites
+
+- Basic knowledge of programming concepts
+- Java Development Kit (JDK) installed
+- An IDE (e.g., IntelliJ IDEA, Eclipse, or NetBeans) or a text editor (e.g., VS Code)
 
 ## Resources
 
-- [Java Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-- [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
-- [Java Basic I/O](https://docs.oracle.com/javase/tutorial/essential/io/basic.html)
+- [Official Java Documentation](https://docs.oracle.com/en/java/)
+- [Java Tutorials](https://docs.oracle.com/javase/tutorial/)
+- [Online Java Compiler](https://www.jdoodle.com/)
 
-## Example Code
+## License
 
-**Using Different Data Types:**
-```java
-public class DataTypesExample {
-    public static void main(String[] args) {
-        byte myByte = 100;
-        short myShort = 10000;
-        int myInt = 100000;
-        long myLong = 100000000L;
-        float myFloat = 10.99f;
-        double myDouble = 99.99;
-        char myChar = 'A';
-        boolean myBoolean = true;
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-        System.out.println("byte: " + myByte);
-        System.out.println("short: " + myShort);
-        System.out.println("int: " + myInt);
-        System.out.println("long: " + myLong);
-        System.out.println("float: " + myFloat);
-        System.out.println("double: " + myDouble);
-        System.out.println("char: " + myChar);
-        System.out.println("boolean: " + myBoolean);
-    }
-}
-```
+---
 
-**Arithmetic Operations:**
-```java
-public class ArithmeticOperations {
-    public static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 5;
-
-        int sum = num1 + num2;
-        int difference = num1 - num2;
-        int product = num1 * num2;
-        int quotient = num1 / num2;
-        int remainder = num1 % num2;
-
-        System.out.println("Sum: " + sum);
-        System.out.println("Difference: " + difference);
-        System.out.println("Product: " + product);
-        System.out.println("Quotient: " + quotient);
-        System.out.println("Remainder: " + remainder);
-    }
-}
-```
-
-**Basic Input and Output:**
-```java
-import java.util.Scanner;
-
-public class BasicInputOutput {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
-
-        System.out.println("Enter your age: ");
-        int age = scanner.nextInt();
-
-        System.out.println("Hello, " + name + ". You are " + age + " years old.");
-    }
-}
-```
+Happy coding! If you have any questions or need further assistance, feel free to open an issue or contact me at maurya972137@gmail.com
+---
