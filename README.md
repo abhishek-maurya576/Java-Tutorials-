@@ -103,7 +103,7 @@ Welcome to the 10-Day Java Course! This course is designed to provide you with a
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/10-day-java-course.git
+   git clone https://github.com/abhishek-maurya576/10-day-java-course.git
    cd 10-day-java-course
    ```
 
